@@ -1,0 +1,8 @@
+O bot, como está configurado atualmente, executa em um contêiner Docker na sua máquina local.
+Se o seu computador for desligado, o contêiner Docker e, consequentemente, o bot, deixarão de funcionar.
+
+Para que o bot funcione continuamente (24/7), ele precisa ser hospedado em um servidor ou plataforma que esteja sempre online, como:
+- Serviços de nuvem (Google Cloud Run, AWS Fargate, Azure Container Instances, etc.)
+- Máquinas Virtuais (VMs) na nuvem
+- Um servidor dedicado ou VPS
+- Um computador em sua casa/escritório que permaneça ligado e conectado à internet.

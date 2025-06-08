@@ -1,0 +1,36 @@
+# Arquivos e pastas do Node.js
+node_modules
+npm-debug.log
+*.log
+
+# Dados de autenticação e cache do navegador
+auth_data/
+chrome/
+chrome-headless-shell/
+.wwebjs_auth/
+
+# Logs da aplicação
+logs/
+
+# Arquivos de configuração local e de desenvolvimento
+*.conf
+.env
+*.env
+.vscode/
+.git/
+.gitignore
+
+# Arquivos de sistema operacional
+Thumbs.db
+.DS_Store
+
+# Chats salvos
+# src/chats_salvos/
+
+# Arquivos Markdown
+*.md
+
+# Ignorar arquivos para a imagem Docker
+Dockerfile
+.dockerignore
+README.md
